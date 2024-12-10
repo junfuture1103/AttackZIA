@@ -15,7 +15,7 @@ ax.set_title("실시간 주파수 스펙트럼")
 ax.set_xlabel("주파수 (Hz)")
 ax.set_ylabel("크기 (Magnitude)")
 ax.grid(True)
-ax.set_xlim(0, 5000)  # 주파수 범위 제한 (최대 5000Hz)
+ax.set_xlim(0, 20000)  # 주파수 범위 제한 (최대 5000Hz)
 ax.set_ylim(0, 100)   # 초기 크기 범위 설정
 
 # 업데이트 함수

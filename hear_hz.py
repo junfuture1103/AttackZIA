@@ -3,8 +3,8 @@ import sounddevice as sd
 import matplotlib.pyplot as plt
 
 # 설정값
-duration = 5.0    # 캡처 지속 시간 (초)
-sample_rate = 44100  # 표준 샘플링 속도
+duration = 8.0    # 캡처 지속 시간 (초)
+sample_rate = 4000  # 표준 샘플링 속도
 
 # 마이크 입력 캡처
 print("마이크 입력을 캡처 중...")
